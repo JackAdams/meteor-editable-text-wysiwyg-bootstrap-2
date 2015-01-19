@@ -9,7 +9,7 @@ Example app repo: [https://github.com/JackAdams/editable-text-example](https://g
 
 #### Quick Start
 
-	meteor add babrahams:editable-text-wysiwyg
+	meteor add babrahams:editable-text-wysiwyg-bootstrap-2
 
 You can then drop an editable text widget into any Blaze template with `wysiwyg=true`:
 
