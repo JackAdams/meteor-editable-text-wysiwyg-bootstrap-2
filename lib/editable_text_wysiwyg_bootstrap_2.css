@@ -24,7 +24,7 @@
 }
 
 .wysiwyg-tools .btn-group:not(.dropdown-menu) {
-  margin-top: 2px;	
+  margin-top: 2px;    
 }
 
 .wysiwyg-container {
@@ -46,19 +46,19 @@
   text-decoration: underline;
   color: #336699;
 }
-	
+    
 .wysiwyg a:hover, .wysiwyg-content a:hover {
   color: #6699cc;
 }
 
 .wysiwyg-container .btn-toolbar {
-  margin: 0 0 2px 0;	
+  margin: 0 0 2px 0;    
 }
 
 .wysiwyg-container .wysiwyg + .wysiwyg-toolbar {
-  margin: 2px 0 0 0;	
+  margin: 2px 0 0 0;    
 }
 
 .wysiwyg-container .btn-group + .btn-group {
-  margin-left: 2px;	
+  margin-left: 2px;    
 }
