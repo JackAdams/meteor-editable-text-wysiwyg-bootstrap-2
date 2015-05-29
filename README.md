@@ -31,6 +31,8 @@ where `singlePostDocument` can be a single post document already set in the curr
 
 #### Documentation
 
+If you have `wysiwyg=true`, you can also set `toolbarPosition=top` (instead of the default which is at the bottom) and `showToolbar=true` (instead of the default where the toolbar is initially concealed).
+
 If you want the wysiwyg toolbar on the top of editor (it's at the bottom by default), pass `toolbarPosition='top'` to the widget as follows:
 
     {{> editableText collection="posts" field="body" toolbarPosition='top'}}

@@ -4,9 +4,9 @@
       <a class="btn wysiwyg-save-button" data-edit="save" title="Save"><i class="fa fa-save"></i></a>
     </div>
     <div class="btn-group" style="margin-left:0px;">
-      <a class="btn wysiwyg-tools-button" title="Show tools"><i class="fa fa-caret-right"></i></a>
+      <a class="btn wysiwyg-tools-button" title="{{#if showToolbar}}Hide tools{{else}}Show tools{{/if}}"><i class="fa {{#if showToolbar}}fa-caret-down{{else}}fa-caret-right{{/if}}"></i></a>
     </div>
-    <div class="wysiwyg-tools" style="display:none;">
+    <div class="wysiwyg-tools" style="{{#unless showToolbar}}display:none;{{/unless}}">
       <div class="btn-group">
         <a class="btn dropdown-toggle" data-toggle="dropdown" title="Font"><i class="fa fa-font"></i><b class="caret"></b></a>
         <ul class="dropdown-menu">
