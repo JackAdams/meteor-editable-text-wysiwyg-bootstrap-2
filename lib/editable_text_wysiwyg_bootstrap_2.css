@@ -62,3 +62,11 @@
 .wysiwyg-container .btn-group + .btn-group {
   margin-left: 2px;    
 }
+
+.wysiwyg sup {
+  vertical-align: super !important;	
+}
+
+.wysiwyg sub {
+  vertical-align: sub !important;	
+}
