@@ -1,4 +1,4 @@
-<template name="wysiwyg">
+<template name="wysiwyg_toolbar">
   <div class="btn-toolbar wysiwyg-toolbar">
     <div style="float:right;" class="btn-group">
       <a class="btn wysiwyg-save-button" data-edit="save" title="Save"><i class="fa fa-save"></i></a>
@@ -87,6 +87,10 @@
         <a class="btn" data-edit="undo" title="Undo (Ctrl/Cmd+Z)"><i class="fa fa-undo"></i></a>
         <a class="btn" data-edit="redo" title="Redo (Ctrl/Cmd+Y)"><i class="fa fa-repeat"></i></a>
       </div>
+      <div class="btn-group">
+        <a class="btn wysiwyg-edit-html" title="Show HTML"><i class="fa fa-code"></i></a>
+      </div>
+      
     </div>
   </div>
 </template>
